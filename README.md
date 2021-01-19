@@ -1,4 +1,10 @@
 # gestao_stock
+Software de gestão de estoque
+
+## Funcionalidades
+-Registrar produtos
+-Alterar preços
+-Registrar Entrada/Saída
 
 ## Project setup
 ```
