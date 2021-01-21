@@ -3,7 +3,7 @@ Software de gestão de estoque
 
 ## Funcionalidades
 -Registrar produtos
--Alterar preços
+-Actualizar produto
 -Registrar Entrada/Saída
 
 ## Project setup

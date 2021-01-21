@@ -6,6 +6,7 @@ import Home from "../modules/home/home.page";
 import NotFound from "../modules/home/notFound.page";
 import ProdutoPage from "../modules/Produto/index.page";
 import ProdutoAdd from "../modules/Produto/form";
+import EstoquePage from "../modules/Estoque/index.page";
 Vue.use(VueRouter);
  
 const router =  new VueRouter({
@@ -27,6 +28,7 @@ const router =  new VueRouter({
             // }
         },
         {name: "Produtos", path:"/produtos/listar", component: ProdutoPage},
+        {name: "Estoque", path:"/estoque", component: EstoquePage},
         {name: "Cadastrar Produtos", path:"/produtos/cadastrar", component: ProdutoAdd},
         
         {

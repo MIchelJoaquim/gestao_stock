@@ -8,20 +8,20 @@ export class Http {
         this.url = API+"/"+endpoint
     }
 
-    get() {
-        return axios.get(this.url+"/")
+    get(params = "") {
+        return axios.get(this.url+"/"+params)
     }
     
     post(payload) {
-        return axios.post(this.url, payload)
+        return axios.post(this.url+"/create", payload)
     }
     
     put(id, payload) {
-        return axios.put(this.url+"/"+id, payload)
+        return axios.put(this.url+"/update/"+id, payload)
     }
     
     remove(id) {
-        return axios.delete(this.url+"/"+id)
+        return axios.delete(this.url+"/delete/"+id)
     }
 }
 

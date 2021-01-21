@@ -1,6 +1,6 @@
 import { Http } from '../../http/http.js';
 
-const http = new Http("produto")
+const http = new Http("estoque")
 
 export function create(data) {
     return http.post(data)
@@ -11,12 +11,12 @@ export function readAll(){
 }
 
 export function readById(id){
-    console.log(id);
-    
-    throw new Error("Method not implemented.");
+    return http.get(id)
 }
 export function update(data){
-    return http.put(data.id, data)
+    console.log(data);
+    
+    throw new Error("Method not implemented.");
 }
 export function remove(id){
     return http.remove(id)
