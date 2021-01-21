@@ -3,7 +3,9 @@ Software de gestão de estoque
 
 ## Funcionalidades
 -Registrar produtos
+
 -Actualizar produto
+
 -Registrar Entrada/Saída
 
 ## Project setup
@@ -25,6 +27,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
